@@ -166,7 +166,7 @@ printList1([4, 5]);
 
 let printList2 = (aList) => {
   switch(aList) {
-  | [] => log("list is emptry")
+  | [] => log("list is empty")
   | [first, ..._] => log({j|list is non-empty with the first element being: $first|j})
   };
 };
